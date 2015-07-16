@@ -32,7 +32,11 @@
     { name: 'Render Simple Ember List',  path: '/render-simple-ember-list' },
     { name: 'Render List with link-to',  path: '/render-list-with-link-to' },
 
-    { name: 'Render link-to',            path: '/render-link-to' }
+    { name: 'Render link-to',            path: '/render-link-to' },
+
+    { name: 'GJ: baseline',              path: '/gj-baseline' },
+    { name: 'GJ: link-to',               path: '/gj-link-to' },
+    { name: 'GJ: href-to',               path: '/gj-href-to' },
   ];
 
   var EMBER_VERSIONS = [
