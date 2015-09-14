@@ -21,7 +21,7 @@
 
     { name: 'link-to get(\'create\')',   path: '/link-to/create' },
 
-    { name: 'object-create/view',        path: '/object-create/view'   },
+    { name: 'object-create/component',   path: '/object-create/component'   },
     { name: 'object-create/baseline',    path: '/object-create/baseline'   },
     { name: 'object-create/index',       path: '/object-create' },
 
@@ -68,7 +68,13 @@
       compilerPath: '/ember/ember-1.13.6.template-compiler.js' },
     { name: '1.13.9',
       path: '/ember/ember-1.13.9.prod.js',
-      compilerPath: '/ember/ember-1.13.9.template-compiler.js' }
+      compilerPath: '/ember/ember-1.13.9.template-compiler.js' },
+    { name: '2.0.2',
+      path: '/ember/ember-2.0.2.prod.js',
+      compilerPath: '/ember/ember-2.0.2.template-compiler.js' },
+    { name: '2.1.0-beta.4',
+      path: '/ember/ember-2.1.0-beta.4.prod.js',
+      compilerPath: '/ember/ember-2.1.0-beta.4.template-compiler.js' }
   ];
 
   // This should probably be ember-cli, it just seemed so complicated to
